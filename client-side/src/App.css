@@ -1,0 +1,31 @@
+.dropdown{
+    width:20%
+    
+}
+.dropdown .dropdown-btn{
+    padding:20px;
+    
+}
+.dropdown-item{
+    padding:10px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1ft);
+    grid-template-rows: repeat(2,1ft); 
+    grid-template-areas:'header header'
+                        'space astr'
+}
+.table_space{
+    
+    
+    grid-area:space;
+}
+.table_astr{
+    
+    grid-area:astr;
+}
+.header{
+    grid-area:header;
+}
